@@ -7,23 +7,23 @@ class Ttyak < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/dmytrobsp/ttyak/releases/download/v0.12.2/ttyak-0.12.2-aarch64-macos.zip"
-      sha256 "29eea6f8b6a7db0cd1d25d7ec3c2583e9c3164577ea9f87ebdf8419693277287"
+      url "https://github.com/dmytrobsp/ttyak/releases/download/v0.12.3/ttyak-0.12.3-aarch64-macos.zip"
+      sha256 "3b136ccabcc93099207cc674d70bfd5d558f22a6009e91a76e4479484b54b7c3"
     end
     on_intel do
-      url "https://github.com/dmytrobsp/ttyak/releases/download/v0.12.2/ttyak-0.12.2-x86_64-macos.zip"
-      sha256 "5daeb56cff5cb07e83214ecf2e53a4449bc81194f752ba81f9ba7ee236f8ca89"
+      url "https://github.com/dmytrobsp/ttyak/releases/download/v0.12.3/ttyak-0.12.3-x86_64-macos.zip"
+      sha256 "4eb29a7efa372fea44f4eb88f892aa4faa0694e1615f691323df46d8d696db77"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/dmytrobsp/ttyak/releases/download/v0.12.2/ttyak-0.12.2-aarch64-linux.zip"
-      sha256 "0655d22cf35f50987a4775301f1ab420d469682742587c69ad81800363cf636d"
+      url "https://github.com/dmytrobsp/ttyak/releases/download/v0.12.3/ttyak-0.12.3-aarch64-linux.zip"
+      sha256 "0b0c630f5c3b32210ac505dc7bb0508a7a6070f92fa94f6ad853b55866cf9501"
     end
     on_intel do
-      url "https://github.com/dmytrobsp/ttyak/releases/download/v0.12.2/ttyak-0.12.2-x86_64-linux.zip"
-      sha256 "a0ac171b59c54cfcc49d00cd1267d7d46c806a7859ff7c56b9b2bd9a11fd8a31"
+      url "https://github.com/dmytrobsp/ttyak/releases/download/v0.12.3/ttyak-0.12.3-x86_64-linux.zip"
+      sha256 "7e2a14cf522af77c720e7f2002d04e7d4620ffb2d8afa3d7776d8a8af7830fd6"
     end
     depends_on "alsa-lib"
   end
